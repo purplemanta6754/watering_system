@@ -1,11 +1,11 @@
 #!/bin/ash
 
-# Push to Server, written by Michael Bernhard
-# Necessary for watering system to upload log files and threshold values from SD card to server
+# Push to Server, escrito por Michael Bernhard
+# Necesario para que el sistema de riego cargue los archivos de registro y los valores umbral desde la tarjeta SD al servidor.
 #
-# copy this file to Arduino Yun file system "/mnt/sd/watering/pushToServer.sh". E.g. by using "scp" command.
+# copiar este archivo al sistema de archivos Arduino Yun "/mnt/sd/watering/pushToServer.sh". Por ejemplo, utilizando el comando "scp".
 #
-# change place holders
+# cambiar los "place holders".
 # <ftp_server_name>: e.g. ftp://ft_server_name/root_path
 # <username>
 # <password>
